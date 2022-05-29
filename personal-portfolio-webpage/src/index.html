@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Portfolio webpage</title>
+  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+<!-- START NAV -->
+
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">About</a>
+    
+    </li>
+    <li>
+      <a href="#projects">Work</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- END NAV -->
+
+<!-- START WELCOME SECTION -->
+
+<section id="welcome-section" class="welcome-section">
+  <h1>I AM ANSU</h1>
+  <p>A WEB DEVELOPER BY PROFESSION</p>
+</section>
+<div class="carousel">
+  
+<button class="carousel_button carousel_button--left">
+  <img src="img/left.svg" alt="">
+</button>
+<ul class="carousel_track-container">
+<li class="carousel_slide">
+  <img class="carousel_image" src="https://cdn.alfasystems.com/articleImages/code-your-future.png?mtime=20201124111320"
+ alt=""</li><br>
+<li class="carousel_slide">
+<img class="carousel_image" src="https://miro.medium.com/max/1170/1*6slUgTecxJ9lBVfeiffVVw.png" alt=">"
+</li><br>
+<li class="carousel_slide">
+  <img class="carousel_image" src="https://www.worthschools.net/userfiles/8/my%20files/school_volunteer_word_cloud.jpg?id=19333" alt=""
+</li>
+
+</ul>
+<button class="carousel_button" carousel_button--right>
+  <img src="img/right.svg" alt="">
+</button>
+<div class="carousel_nav">
+<button class="carousel_indicator"></button>
+<button class="carousel_indicator"></button>
+<button class="carousel_indicator"></button>
+</div>
+
+</div>
+
+<!-- END WELCOME SECTION -->
+
+<!-- START PROJECTS SECTION -->
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">These are some of my projects</h2>
+
+  <div class="tiles">
+      <div class="project-tile">
+   
+
+  <div id="img-div"> 
+    <a id="tribute-link" target="_blank" href="https://www.youtube.com/watch?v=xjDjIWPwcPU">
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/en/9/9f/Black_Panther_OS_Vol_1_2.png" alt= "picture of Balck Panther" width="300" height="300"></a>
+    
+   <div>TRIBUTE PAGE</div>
+    <br>
+        </div>
+          <div class="project-tile">
+    <form id="survey-form">
+  <div-class="input-headings">
+  <label for="name" id="name-label"> <b> Name </b></label>
+  <input id="name"  type="text" name="name" placeholder="ansu jammeh" class="form-inputs" required> 
+ </input>
+<br>
+<label for="email" id="email-label">  <b>Email</b></label>
+<input id="email" type="email" name="email" placeholder="asus@yahoo.com" class="form-inputs" required></input>
+<br>
+  <label for="number" id="number-label"> <b>Age </b> </label>
+<input id="number" type="number" name="number" placeholder="18" min="18" max="99" class="form-inputs" required> </input>
+<br>
+<label for="dropdown" id="model"> <b>Select model </b></label>
+<select id="dropdown" class="form-inputs">
+  <option value="c_class"> C class </option> 
+  <option value="a_class"> A Class </option> 
+  <option value="e_class"> E Class </option> 
+   <option value="gla_class"> GLA Class </option> 
+</select>
+<br>
+<br>
+<label for="model_color" id="model_color"> <b> Model color</b> </label>
+<br>
+<input id="model_color" type="radio" id="black" name="color" Value="black">
+<label for="model_color"> <b>Black</b> </label> 
+<br>
+<input id="model_color" type="radio" id="white" name="color" Value="white">
+<label for="model_color"> <b>White</b></label> 
+<br>
+<input id="model_color" type="radio" id="blue" name="color" Value="blue">
+<label for="model_color"><b>Blue</b> </label> 
+<br>
+<br>
+
+<label for="features"> <b> Add features </b> </label>
+<br>
+
+<input id="checkbox" type="checkbox" name="feature" value="autopilot">
+
+<label for="checkbox"><b> electric self driving (Autopilot) - £7000</b> </label>
+
+<br>
+
+<input id="checkbox" type="checkbox" name="feature" value="automatic">
+
+<label for="checkbox"> <b>Automatic - £8000 </b></label>
+
+<br>
+
+<input id="checkbox" type="checkbox" name="feature" value="dual motor">
+
+<label for="checkbox"> <b>Dual Motor (all wheel drive) - £5000 </b></label>
+
+<br>
+<br>
+
+<label id="textarea"> <b>Additional comments </b> </label>
+<br>
+
+<textarea id="textarea" name="instruction"  rows="5" cols="40"> </textarea>
+<br>
+
+<input id="submit" type="submit" value="Place order" class="submit-button">
+</form>
+    
+  </div>
+  <div>SURVEY FORM</div>
+  </div>
+</br> 
+<div class="projects-tile">
+  <a id="tribute-link" target="_blank"> 
+    <img class="logo-image" src="https://e7.pngegg.com/pngimages/319/935/png-clipart-lawyer-law-firm-criminal-law-court-scale-emblem-people.png">
+    <div>TECHNICAL DOCUMENTATION LOGO PAGE</div>
+    <br>
+    <label id="textarea"> <b>Write Your Comment Here</b> </label>
+    <br>
+    <textarea id="textarea" name="instruction" rows="5" cols="50"></textarea>
+    <br>
+    <input id="submit" type="submit" value="Submit" class-"submit-button">
+    
+</section>
+
+<!-- END PROJECTS SECTION -->
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    
+  </div>
+  <div class="contact-links">
+   <a href ="http://www.facebook.com/" target="_blank"> 
+  
+     
+     <i class="fab fa facebook"></i>Facebook</a>
+  </div>
+    <a
+      id="profile-link"
+      href="https://github.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com/"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:example@example.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:0800-344-4455" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- START FOOTER SECTION -->
+
+<footer>
+  
+  <p>
+    &copy; 
+    <a href="https://www.freecodecamp.com/" target="_blank"
+      >copy right 2022<i class="fab fa-free-code-camp"></i
+    ></a>
+  </p>
+</footer>
+
+<!-- END FOOTER SECTION -->
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
